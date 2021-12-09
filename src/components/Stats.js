@@ -39,7 +39,7 @@ const Statistic = () => {
           <Route exact path="/"> <IndianStats  /> </Route> 
           <Route path="/about"><Home /> </Route>
           <Route path="/global"> <Global data={allData}  /> </Route> 
-          <Route path="/india"> <IndianStats  /> </Route> 
+          /*<Route path="/india"> <IndianStats  /> </Route>*/ 
           <Route path="/map"> <Map  /> </Route> 
 
 

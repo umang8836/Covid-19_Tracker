@@ -16,9 +16,9 @@ const Chart = ({countryName})=>{
             setCountryName(Name);
         }
 
-        updateCountryName(countryName) */
+        updateCountryName(countryName) *///https://api.covid19api.com
         axios
-            .get(`https://api.covid19api.com/total/country/${countryName}`)
+            .get(`https://api.covidtracking.com/total/country/${countryName}`)
             .then(response => {
                 console.log('promise fulfilled')
                 const modifiedData = response.data.map((dailydata) =>({
