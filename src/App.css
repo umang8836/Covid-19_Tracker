@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada&display=swap');
+
+
+ body h3{
+    font-family:  'Lemonada', cursive;
+}
+
+.lesson-item .searchBar{
+    border-radius: 4px;
+    padding: 8px 0 8px;
+
+  }
+  
+  .lesson-item img {
+    width: 150px;
+  }
+  
+  .lesson-item  {
+    color: #2b546a;
+    font-size: 20px;
+  }
+
+  .lesson-container {
+    margin-top: 10px;
+  }
+
+  .lesson-card {
+    display: inline-block;
+    /*
+    margin-top:10px;
+    margin-right: 15px;
+    margin-bottom: 18px;
+        width: 22.5%;
+
+    */
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+    box-shadow: 0 0 6px #e8e8e8;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  .home{
+    box-shadow: 0 0 6px #e8e8e8;
+    background-color: #fff;
+    cursor: pointer;
+    /*display: inline-block;*/
+    padding-top: 10px;
+    /*margin-left: 25px;
+    margin-right: 25px;*/
+
+  }
+  .searchBar{
+      width:500px;
+      height:25px;
+  }
+/* ============================================================= */
+.outerDiv{
+    margin:25px;
+}
+
+.navbar{
+    margin-bottom: 15px;
+}
+.App {
+  text-align: center;
+}
+
+.img-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color:white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /*font-size: calc(10px + 2vmin);*/
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+  font-size: 25px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
